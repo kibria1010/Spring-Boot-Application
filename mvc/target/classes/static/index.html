@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+</head>
+<body>
+<div>
+    <h1>This is homepage</h1>
+    <a href="home">click here to go to hello page</a>
+</div>
+<hr>
+<div>
+    <H1>Add Programmer</H1>
+    <form action="addProgrammer" method="post">
+        <table style="text-align: left; width:50%; border-collapse: collapse;" style="width:100%; border-collapse: collapse;">
+            <tr>
+                <th><br>Name:</th>
+                <td><br><input type="text" id="pName" name="pName" value=""></td>
+            </tr>
+            <tr>
+                <th><br>Language:</th>
+                <td><br><input type="text" id="pLang" name="pLang" value=""></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><br><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<hr>
+<div>
+    <H1>Find Programmer</H1>
+    <form action="findWithId" method="post">
+        <table style="text-align: left; width:50%; border-collapse: collapse;" style="width:100%; border-collapse: collapse;">
+            <tr>
+                <th><br>ID:</th>
+                <td><br><input type="text" name="pId" value=""></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><br><input type="submit" value="Submit">FindWithId</td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<hr>
+<div>
+    <H1>Delete Programmer</H1>
+    <form action="deleteWithId" method="get">
+        <table style="text-align: left; width:50%; border-collapse: collapse;" style="width:100%; border-collapse: collapse;">
+            <tr>
+                <th><br>ID:</th>
+                <td><br><input type="text" name="pId" value=""></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><br><input type="submit" value="Submit">DeleteWithId</td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<hr>
+<div>
+    <H1>Update Programmer</H1>
+    <form action="updateProgrammer" method="post">
+        <table style="text-align: left; width:50%; border-collapse: collapse;" style="width:100%; border-collapse: collapse;">
+            <tr>
+                <th><br>Id:</th>
+                <td><br><input type="text"name="pId" value=""></td>
+            </tr>
+            <tr>
+                <th><br>Name:</th>
+                <td><br><input type="text"name="pName" value=""></td>
+            </tr>
+            <tr>
+                <th><br>Language:</th>
+                <td><br><input type="text"  name="pLang" value=""></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><br><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>

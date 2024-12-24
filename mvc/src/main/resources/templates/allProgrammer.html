@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://weww.thymleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<table>
+  <tr th:each="p : ${programmers}">
+    <td th:text="${p.pId}"></td>
+    <td th:text="${p.pName}"></td>
+    <td th:text="${p.pLang}"></td>
+  </tr>
+</table>
+</body>
+</html>
